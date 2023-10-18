@@ -2,6 +2,8 @@
 
 | Hash    | Date        | Author          | Changes                                                                         |
 |---------|-------------|-----------------|---------------------------------------------------------------------------------|
+| 2b5a432 | Oct 19 2023 | PirozhokUbiytsa | docs: changed description_of_functions                                          |
+| fe0b472 | Oct 19 2023 | PirozhokUbiytsa | docs: changed history_of_changes                                                |
 | a6f36f3 | Oct 19 2023 | PirozhokUbiytsa | docs: changed description_of_functions                                          |
 | 9035d97 | Oct 19 2023 | PirozhokUbiytsa | docs: changed history_of_changes                                                |
 | e9fe778 | Oct 18 2023 | PirozhokUbiytsa | fix: conflict fixed                                                             |
