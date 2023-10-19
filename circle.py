@@ -1,7 +1,7 @@
 def area(r):
-    '''принимает число r, возвращает площадь круга радиуса r'''
+    '''takes a number r, returns the area of a circle of radius r'''
     return math.pi * r * r
 
 def perimeter(r):
-    '''принимает число r, возвращает периметр круга радиуса r'''
+    '''takes a number r, returns the perimeter of a circle of radius r'''
     return 2 * math.pi * r

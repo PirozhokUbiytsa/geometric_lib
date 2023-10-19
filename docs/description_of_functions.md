@@ -2,84 +2,84 @@
 ## Area
 ### Circle:
 **def area(r):**
-    Возвращает площадь круга с радиусом r
+    Returns the area of a circle with radius r
         
-        Параметры:
-            r(int): десятичное целое число
+        Options:
+            r(int): decimal integer
 
-        Возвращаемое значение: 
-            (float): произведение pi и квадрата r
+        Return value: 
+            (float): multiply pi and r^2
 
 ### Rectangle
 **def area(a, b):**
-    Возвращает площадь прямоугольника со сторонами a и b
+    Returns the area of a rectangle with sides a and b
 
-        Параметры:
-            a(int): первое десятичное целое число
-            b(int): второе десятичное целое число
+        Options:
+            a(int): first decimal integer
+            b(int): second decimal integer
 
-        Возвращаемое значение: 
-            (int): произведение a и b
+        Return value:
+            (int): multiply a and b
 
 ### Square
 **def area(a):**
-    Возвращает площадь квадрата со стороной a
+    Returns the area of a square with side a
 
-        Параметры:
-            a(int): первое десятичное целое число
+        Options:
+            a(int): first decimal integer
 
-        Возвращаемое значение: 
-            (int): квадрат числа a
+        Return value: 
+            (int): square of number a
 
 ### Triangle
 **def area(a, h):**
-    Возвращает площадь треугольника со стороной a и высотой b
+    Returns the area of a triangle with side a and height b
 
-        Параметры:
-            a(int): первое десятичное целое число
-            b(int): второе десятичное целое число
+        Options:
+            a(int): first decimal integer
+            b(int): second decimal integer
 
-        Возвращаемое значение: 
-            (int): произведение a и b, деленное на 2
+        Return value: 
+            (int): multiply a and b divided by 2
 
 ## Perimeter
 ### Circle:
 **def perimeter(r):**
-    Возвращает периметр круга с радиусом r
+    Returns the perimeter of a circle with radius r
 
-        Параметры:
-            r(int): первое десятичное целое число
+        Options:
+            r(int): first decimal integer
 
-        Возвращаемое значение: 
-            (float): произведение двух pi и радиуса r
+        Return value:
+            (float): multiplication of two pi and radius r
 ### Rectangle
 **def perimeter(a, b):**
-    Возвращает периметр прямоугольника со сторонами a и b
+    Returns the perimeter of a rectangle with sides a and b
 
-        Параметры:
-            a(int): первое десятичное целое число
-            b(int): второе десятичное целое число
+        Options:
+            a(int): first decimal integer
+            b(int): second decimal integer
 
-        Возвращаемое значение: 
-            (int): сумма a и b, умноженная на 2
+        Return value:
+            (int): sum of a and b multiplied by 2
 ### Square
 **def perimeter(a):**
-    Возвращает периметр квадрата со стороной a
+    Returns the perimeter of a square with side a
 
-        Параметры:
-            a(int): первое десятичное целое число
+        Options:
+            a(int): first decimal integer
 
-        Возвращаемое значение:
-            (int): a умноженное на 4 
+        Return value:
+            (int): a multiplied by 4
 
 ### Triangle
 **def perimeter(a, b, c):**
-    Возвращает периметр треугольника со сторонами a, b и c
+    Returns the perimeter of a triangle with sides a, b and c
 
-        Параметры:
-            a(int): первое десятичное целое число
-            b(int): второе десятичное целое число
-            c(int): третье десятичное целое число
+        Options:
+            a(int): first decimal integer
+            b(int): second decimal integer
+            c(int): third decimal integer
 
-        Возвращаемое значение: 
-            (int): сумма a, b и c
+        Return value: 
+            (int): sum of a, b and c

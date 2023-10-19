@@ -1,7 +1,7 @@
 def area (a, b):
-    '''принимает числа a и b, возвращает лощадь прямоугольника со сторонами a и b'''
+    '''takes numbers a and b, returns the area of a rectangle with sides a and b'''
     return a * b
 
 def perimeter (a ,b):
-    '''принимает числа a и b, возвращает периметр прямоугольника со сторонами a и b'''
+    '''takes numbers a and b, returns the perimeter of a rectangle with sides a and b'''
     return (a + b) * 2

@@ -1,7 +1,7 @@
 def area (a, h):
-    '''принимает числа a и h, возвращает площадь треугольника со стороной a и высотой h'''
+    '''takes numbers a and h, returns the area of a triangle with side a and height h'''
     return a * h / 2
 
 def perimeter (a ,b, c):
-    '''принимает числа a ,b и c, возвращает периметр треугольника со сторонами a ,b и c'''
+    '''takes numbers a ,b and c, returns the perimeter of a triangle with sides a ,b and c'''
     return a + b + c
