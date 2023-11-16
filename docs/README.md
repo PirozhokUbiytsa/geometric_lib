@@ -3,10 +3,10 @@
 - Circle: S = πR²
 - Rectangle: S = ab
 - Square: S = a²
-- Triangle = ah/2
+- Triangle: S = a * h
 
 ## Perimeter
 - Circle: P = 2πR
 - Rectangle: P = 2a + 2b
 - Square: P = 4a
-- Triangle = a + b + c
+- Triangle: S = a + b + c
