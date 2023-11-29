@@ -2,7 +2,7 @@ name: Python application
 
 on:
   push: 
-    branches: [ "tests_368456" ]
+    branches: [ "main" ]
 
 jobs:
   # каждый job запускается на отдельной виртуальной машине
