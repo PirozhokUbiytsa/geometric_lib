@@ -1,0 +1,22 @@
+name: Python application
+
+on:
+  push: 
+    branches: [ "tests_368456" ]
+
+jobs:
+  # каждый job запускается на отдельной виртуальной машине
+  testing:
+    # на какой виртуальной машине запустятся steps
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: print hello
+      run: echo "Haro"
+
+  testing2:
+     runs-on: ubuntu-latest
+
+     steps:
+     - name: print World
+       run: echo " za Warudo"
