@@ -14,8 +14,20 @@ jobs:
     - name: print hello
       run: echo "Haro"
 
+    - name: show files 1
+      run: ls -la
+
+    # чтобы работать с содержимым своего репозитория
+    - name: clone my repo
+      uses: action/checkout@v1
+ 
+    - name: show files 2
+      run: ls -la
+
   testing2:
      runs-on: ubuntu-latest
+     #для начала работы должен закончиться testing (первый job)
+     needs: testing
 
      steps:
      - name: print World
