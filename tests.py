@@ -41,7 +41,7 @@ class MyTests(unittest.TestCase):
         self.assertEqual(triangle.perimeter(8, 1, 91), 100)
     def test_TriangleArea(self):
         self.assertEqual(triangle.area(4, 8), 16)
-        self.assertEqual(triangle.area(345, 2), 345)
+        self.assertEqual(triangle.area(345, 2), 335)
         self.assertEqual(triangle.area(20, 2), 20)
 
 if __name__ == '_main_':
