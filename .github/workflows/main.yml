@@ -19,7 +19,7 @@ jobs:
 
     # чтобы работать с содержимым своего репозитория
     - name: clone my repo
-      uses: action/checkout@v1
+      uses: actions/checkout@v1
  
     - name: show files 2
       run: ls -la
