@@ -38,7 +38,7 @@ jobs:
       run: pytest tests.py
 
   windows-test:
-     runs-on: ubuntu-latest
+     runs-on: windows-latest
 
      steps:
      #clone rep
