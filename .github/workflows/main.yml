@@ -5,7 +5,7 @@ on:
     branches: [ "tests_368456" ]
 
 jobs:
-  ubunbu-test:
+  ubunbu:
 
     runs-on: ubuntu-latest
 
@@ -22,13 +22,13 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install flake8 pytest
+        pip install pytest
         
     # run testing
     - name: Run tests
       run: pytest tests.py
 
-  windows-test:
+  windows:
      runs-on: windows-latest
 
      steps:
@@ -44,7 +44,7 @@ jobs:
      - name: Install dependencies
        run: |
          python -m pip install --upgrade pip
-         pip install flake8 pytest
+         pip install pytest
         
      # run testing
      - name: Run tests
