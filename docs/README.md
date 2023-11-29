@@ -1,5 +1,5 @@
 # Status of last deployment:<br>
-[![Python-application](https://github.com/PirozhokUbiytsa/geometric_lib/actions/workflows/main.yml/badge.svg?branch=tests_368456&event=push)](https://github.com/PirozhokUbiytsa/geometric_lib/actions/workflows/main.yml)
+[![Python-tests](https://github.com/PirozhokUbiytsa/geometric_lib/actions/workflows/main.yml/badge.svg?branch=tests_368456&event=push)](https://github.com/PirozhokUbiytsa/geometric_lib/actions/workflows/main.yml)
 
 # Math formulas
 ## Area
