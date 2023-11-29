@@ -1,6 +1,6 @@
 name: Python-application
 
-on:
+on:ss
   push:
     branches: [ "tests_368456" ]
 
