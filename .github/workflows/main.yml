@@ -20,8 +20,7 @@ jobs:
         python-version: "3.10"
         
     - name: Install dependencies
-      run:
-        pip install pytest
+      run: pip install pytest
         
     # run testing
     - name: Run tests
@@ -41,8 +40,7 @@ jobs:
          python-version: "3.10"
 
      - name: Install dependencies
-       run:
-         pip install pytest
+       run: pip install pytest
         
      # run testing
      - name: Run tests
