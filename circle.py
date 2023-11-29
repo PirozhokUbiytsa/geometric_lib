@@ -1,3 +1,5 @@
+import math
+
 def area(r):
     '''takes a number r, returns the area of a circle of radius r'''
     return math.pi * r * r
