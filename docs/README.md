@@ -1,5 +1,4 @@
 # Tests
-# Math formulas
 ## Area tests
 - Circle: 6 complited, 1 error
 - Rectangle: 3 complited, 1 error
@@ -13,6 +12,8 @@
 - Triangle: 3 complited, 1 error
 
 ## All 38 tests: 30 completed, 8 errors
+
+# Math formulas
 
 # Math formulas
 ## Area
