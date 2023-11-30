@@ -12,7 +12,7 @@ class MyTests(unittest.TestCase):
         self.assertLess(circle.perimeter(13), 82)
         self.assertGreater(circle.perimeter(88), 552)
         self.assertLess(circle.perimeter(88), 553)
-        self.assertEqual(circle.perimeter(-88), -1)
+        self.assertRaises(Error, circle.perimeter)
     def test_CircleArea(self):
         self.assertGreater(circle.area(5), 78)
         self.assertLess(circle.area(5), 79)
@@ -20,37 +20,37 @@ class MyTests(unittest.TestCase):
         self.assertLess(circle.area(524), 862606)
         self.assertGreater(circle.area(12), 452)
         self.assertLess(circle.area(12), 453)
-        self.assertEqual(circle.area(0), -1)
+        self.assertRaises(Error, circle.area)
     def test_RectanglePerimeter(self):
         self.assertEqual(rectangle.perimeter(2, 4), 12)
         self.assertEqual(rectangle.perimeter(7, 4), 22)
         self.assertEqual(rectangle.perimeter(100, 1), 202)
-        self.assertEqual(rectangle.perimeter(100, -1), -1)
+        self.assertRaises(Error, rectangle.perimeter)
     def test_RectangleArea(self):
         self.assertEqual(rectangle.area(8, 10), 80)
         self.assertEqual(rectangle.area(34, 1), 34)
         self.assertEqual(rectangle.area(56, 13), 728)
-        self.assertEqual(rectangle.area(-56, -13), -1)
+        self.assertEqual(Error, rectangle.area)
     def test_SquarePerimeter(self):
         self.assertEqual(square.perimeter(3), 12)
         self.assertEqual(square.perimeter(1), 4)
         self.assertEqual(square.perimeter(23), 92)
-        self.assertEqual(square.perimeter(0), -1)
+        self.assertEqual(Error, square.perimeter)
     def test_SquareArea(self):
         self.assertEqual(square.area(4), 16)
         self.assertEqual(square.area(1), 1)
         self.assertEqual(square.area(15), 225)
-        self.assertEqual(square.area(-15), -1)
+        self.assertEqual(Error, square.area)
     def test_TrianglePerimeter(self):
         self.assertEqual(triangle.perimeter(3, 7, 1), 11)
         self.assertEqual(triangle.perimeter(25, 99, 17), 141)
         self.assertEqual(triangle.perimeter(8, 1, 91), 100)
-        self.assertEqual(triangle.perimeter(8, -1, 91), -1)
+        self.assertEqual(Error, triangle.perimeter)
     def test_TriangleArea(self):
         self.assertEqual(triangle.area(4, 8), 16)
         self.assertEqual(triangle.area(345, 2), 345)
         self.assertEqual(triangle.area(20, 2), 20)
-        self.assertEqual(triangle.area(2, -2), -1)
+        self.assertEqual(Error, triangle.area)
 
 if __name__ == '_main_':
     unittest.main()
