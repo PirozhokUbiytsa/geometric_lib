@@ -14,8 +14,6 @@
 ## All 38 tests: 30 completed, 8 errors
 
 # Math formulas
-
-# Math formulas
 ## Area
 - Circle: S = πR²
 - Rectangle: S = ab
