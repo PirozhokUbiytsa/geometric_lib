@@ -2,6 +2,19 @@
 
 | Hash    | Date        | Author          | Changes                                                                         |
 |---------|-------------|-----------------|---------------------------------------------------------------------------------|
+| 2125e20 | Nov 30 2023 | PirozhokUbiytsa | Update tests.py                                                                 |
+| a527b1b | Nov 30 2023 | PirozhokUbiytsa | Update tests.py                                                                 |
+| f5e977d | Nov 30 2023 | PirozhokUbiytsa | Update main.yml                                                                 |
+| 907732a | Nov 30 2023 | PirozhokUbiytsa | Update main.yml                                                                 |
+| 4e72986 | Nov 30 2023 | PirozhokUbiytsa | Update main.yml                                                                 |
+| 2d53895 | Nov 30 2023 | PirozhokUbiytsa | Update tests.py                                                                 |
+| 347a047 | Nov 30 2023 | PirozhokUbiytsa | Update tests.py                                                                 |
+| 4f14133 | Nov 30 2023 | PirozhokUbiytsa | Update main.yml                                                                 |
+| 75b6801 | Nov 29 2023 | PirozhokUbiytsa | Update main.yml                                                                 |
+| e2bc27f | Nov 29 2023 | PirozhokUbiytsa | Update README.md                                                                |
+| ecade2c | Nov 29 2023 | PirozhokUbiytsa | Update README.md                                                                |
+| 6c21a0c | Nov 29 2023 | PirozhokUbiytsa | Create main.yml                                                                 |
+| 70197fb | Nov 16 2023 | PirozhokUbiytsa | test: tests.py added                                                            |
 | ab46ec9 | Oct 19 2023 | PirozhokUbiytsa | docs: changed description_of_functions                                          |
 | f347642 | Oct 19 2023 | PirozhokUbiytsa | docs: changed description_of_functions                                          |
 | b5c13be | Oct 19 2023 | PirozhokUbiytsa | docs: changed history_of_changes                                                |
