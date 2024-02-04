@@ -19,6 +19,7 @@ class MyTests(unittest.TestCase):
         self.assertLess(circle.area(524), 862606)
         self.assertGreater(circle.area(12), 452)
         self.assertLess(circle.area(12), 453)
+        self.assertRaises(ValueError, circle.area, 0)
     def test_RectanglePerimeter(self):
         self.assertEqual(rectangle.perimeter(2, 4), 12)
         self.assertEqual(rectangle.perimeter(7, 4), 22)
